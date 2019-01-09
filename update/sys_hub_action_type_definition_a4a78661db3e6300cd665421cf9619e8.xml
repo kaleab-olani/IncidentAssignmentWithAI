@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Calculate the number value of a sentiment</description>
+        <internal_name>sentiment_calculation</internal_name>
+        <label_cache>[{"name":"{{action.deepai_response}}","label":"action➛deepAI_response","type":"action","ref":""},{"name":"{{step[b1340004-468f-40fa-933e-58dabaff72b3].c}}","label":"step➛Sentiment Calculation➛c","type":"step","ref":""},{"name":"{{step[b1340004-468f-40fa-933e-58dabaff72b3].ca}}","label":"step➛Sentiment Calculation➛ca","type":"step","ref":""},{"name":"{{step[b1340004-468f-40fa-933e-58dabaff72b3].cal}}","label":"step➛Sentiment Calculation➛cal","type":"step","ref":""},{"name":"{{step[b1340004-468f-40fa-933e-58dabaff72b3].calc}}","label":"step➛Sentiment Calculation➛calc","type":"step","ref":""},{"name":"{{step[b1340004-468f-40fa-933e-58dabaff72b3].calc_}}","label":"step➛Sentiment Calculation➛calc_","type":"step","ref":""},{"name":"{{step[b1340004-468f-40fa-933e-58dabaff72b3].calc_v}}","label":"step➛Sentiment Calculation➛calc_v","type":"step","ref":""},{"name":"{{step[b1340004-468f-40fa-933e-58dabaff72b3].calc_va}}","label":"step➛Sentiment Calculation➛calc_va","type":"step","ref":""},{"name":"{{step[b1340004-468f-40fa-933e-58dabaff72b3].calc_val}}","label":"step➛Sentiment Calculation➛calc_val","type":"step","ref":""},{"name":"{{step[b1340004-468f-40fa-933e-58dabaff72b3].calc_valu}}","label":"step➛Sentiment Calculation➛calc_valu","type":"step","ref":""},{"name":"{{step[b1340004-468f-40fa-933e-58dabaff72b3].calc_value}}","label":"step➛Sentiment Calculation➛calc_value","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Sentiment Calculation</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 13:12:17</sys_created_on>
+        <sys_id>a4a78661db3e6300cd665421cf9619e8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Sentiment Calculation</sys_name>
+        <sys_package display_value="DeepAI Integration Spoke" source="x_287654_google_in">5b756d21dbba6300cd665421cf9619d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeepAI Integration Spoke">5b756d21dbba6300cd665421cf9619d9</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a4a78661db3e6300cd665421cf9619e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-09 07:57:17</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4a78661db3e6300cd665421cf9619e8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a4a78661db3e6300cd665421cf9619e8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>a4a78661db3e6300cd665421cf9619e8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-09 07:57:17</sys_created_on>
+        <sys_id>be7f6203db722300cd665421cf9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-09 07:57:17</sys_updated_on>
+        <value/>
+        <variable display_value="">267f6203db722300cd665421cf9619af</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a4a78661db3e6300cd665421cf9619e8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ou_value</field>
+        <id>a4a78661db3e6300cd665421cf9619e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-09 07:28:53</sys_created_on>
+        <sys_id>fef86acbdb322300cd665421cf9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-09 07:28:53</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a4a78661db3e6300cd665421cf9619e8</table>
+        <value>{{step[b1340004-468f-40fa-933e-58dabaff72b3].calc_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>value</field>
+        <id>a4a78661db3e6300cd665421cf9619e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 13:17:59</sys_created_on>
+        <sys_id>40f802e1db3e6300cd665421cf96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 13:17:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a4a78661db3e6300cd665421cf9619e8</table>
+        <value>{{step[b1340004-468f-40fa-933e-58dabaff72b3].calc_value}}</value>
+    </sys_element_mapping>
+</record_update>

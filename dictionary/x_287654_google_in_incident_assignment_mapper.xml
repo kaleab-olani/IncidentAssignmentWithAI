@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Incident Assignment Mapper" max_length="40" name="x_287654_google_in_incident_assignment_mapper" type="collection">
+        <element label="assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element display="true" label="key word" max_length="40" name="key_word" type="string"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+    </element>
+</database>

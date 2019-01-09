@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Parse Incident Association Response">dc0c83c3dbb22300cd665421cf9619d9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Incident Controller Flow">98a0bdaddbba6300cd665421cf9619b9</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-09 11:29:47</sys_created_on>
+        <sys_id>6f106b8fdbb22300cd665421cf961925</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DeepAI Integration Spoke" source="x_287654_google_in">5b756d21dbba6300cd665421cf9619d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeepAI Integration Spoke">5b756d21dbba6300cd665421cf9619d9</sys_scope>
+        <sys_update_name>sys_hub_action_instance_6f106b8fdbb22300cd665421cf961925</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-09 12:01:15</sys_updated_on>
+        <ui_id>f05f09e4-0f39-4fd6-8eb5-7ed7ce09e3b0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6f106b8fdbb22300cd665421cf961925"/>
+    <sys_element_mapping action="delete_multiple" query="id=6f106b8fdbb22300cd665421cf961925"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_response</field>
+        <id>6f106b8fdbb22300cd665421cf961925</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-09 11:29:47</sys_created_on>
+        <sys_id>23106b8fdbb22300cd665421cf96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-09 11:29:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc0c83c3dbb22300cd665421cf9619d9</table>
+        <value>{{f321d35f-bc76-4987-b4d0-8a2e485d9f15.response}}</value>
+    </sys_element_mapping>
+</record_update>
