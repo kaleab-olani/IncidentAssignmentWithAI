@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8c71d034db032300cd665421cf9619ac</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-14 06:56:27</sys_created_on>
+        <sys_id>e081d074db032300cd665421cf961904</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DeepAI Integration Spoke" source="x_287654_google_in">5b756d21dbba6300cd665421cf9619d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeepAI Integration Spoke">5b756d21dbba6300cd665421cf9619d9</sys_scope>
+        <sys_update_name>sp_instance_e081d074db032300cd665421cf961904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-14 12:26:39</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p style=\"text-align: center;\"><strong>You may not come here by choice but you are here. </strong></p>\n<h1 style=\"text-align: center;\">&nbsp;<strong>Take the&nbsp;&nbsp;<em>Blue pill</em></strong></h1>\n<p style=\"text-align: center;\"><strong> and you will go back to the home page and believe&nbsp;what ever you want to believe.&nbsp;</strong></p>\n<h1 style=\"text-align: center;\"><strong>Take the&nbsp;<em>Red pill</em></strong></h1>\n<p style=\"text-align: center;\"><strong>and we will open your eyes to why you are here and more!</strong></p>",
+		"displayValue": "<p style=\"text-align: center;\"><strong>You may not come here by choice but you are here. </strong></p>\n<h1 style=\"text-align: center;\">&nbsp;<strong>Take the&nbsp;&nbsp;<em>Blue pill</em></strong></h1>\n<p style=\"text-align: center;\"><strong> and you will go back to the home page and believe&nbsp;what ever you want to believe.&nbsp;</strong></p>\n<h1 style=\"text-align: center;\"><strong>Take the&nbsp;<em>Red pill</em></strong></h1>\n<p style=\"text-align: center;\"><strong>and we will open your eyes to why you are here and more!</strong></p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=e081d074db032300cd665421cf961904"/>
+</record_update>
