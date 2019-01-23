@@ -3,39 +3,39 @@
         <action_inputs/>
         <action_type display_value="Get Property">8068f86ddb3a6300cd665421cf961964</action_type>
         <action_type_parent/>
-        <comment>get the deepAI API key</comment>
+        <comment>get google cloud AI API key</comment>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Incident Controller Flow">98a0bdaddbba6300cd665421cf9619b9</flow>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-04 11:33:41</sys_created_on>
-        <sys_id>44113d61dbfa6300cd665421cf961926</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_created_on>2019-01-22 13:26:08</sys_created_on>
+        <sys_id>7e67f25fdbcf2300cd665421cf9619f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="DeepAI Integration Spoke" source="x_287654_google_in">5b756d21dbba6300cd665421cf9619d9</sys_package>
         <sys_policy/>
         <sys_scope display_value="DeepAI Integration Spoke">5b756d21dbba6300cd665421cf9619d9</sys_scope>
-        <sys_update_name>sys_hub_action_instance_44113d61dbfa6300cd665421cf961926</sys_update_name>
+        <sys_update_name>sys_hub_action_instance_7e67f25fdbcf2300cd665421cf9619f4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-22 13:26:08</sys_updated_on>
-        <ui_id>fb0ce338-ff06-45a5-897b-77a531555aeb</ui_id>
+        <ui_id>b3b0ce80-1988-408f-aa64-33388a0eb782</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=44113d61dbfa6300cd665421cf961926"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7e67f25fdbcf2300cd665421cf9619f4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>44113d61dbfa6300cd665421cf961926</document_key>
+        <document_key>7e67f25fdbcf2300cd665421cf9619f4</document_key>
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-04 11:33:41</sys_created_on>
-        <sys_id>48113d61dbfa6300cd665421cf96192c</sys_id>
+        <sys_created_on>2019-01-22 13:26:08</sys_created_on>
+        <sys_id>7a67f25fdbcf2300cd665421cf9619fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-04 11:33:41</sys_updated_on>
-        <value>x_287654_google_in.deepai.key</value>
+        <sys_updated_on>2019-01-22 13:26:08</sys_updated_on>
+        <value>x_287654_google_in.google_cloud</value>
         <variable display_value="">2a1cf861db7a6300cd665421cf9619ad</variable>
     </sys_variable_value>
 </record_update>

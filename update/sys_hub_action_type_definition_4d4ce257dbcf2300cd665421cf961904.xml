@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation>Get a sentiment of a text from google cloud AI.</annotation>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get a sentiment of a text from google cloud AI.</description>
+        <internal_name>sentiment_from_googleai</internal_name>
+        <label_cache>[{"name":"{{action.api_key}}","label":"action➛api_key","type":"action","ref":""},{"name":"{{action.text}}","label":"action➛text","type":"action","ref":""},{"name":"{{step[3e5accb0-92c4-4383-90ae-867d27ea1e6b].b}}","label":"step➛Create Request Body➛b","type":"step","ref":""},{"name":"{{step[3e5accb0-92c4-4383-90ae-867d27ea1e6b].bo}}","label":"step➛Create Request Body➛bo","type":"step","ref":""},{"name":"{{step[3e5accb0-92c4-4383-90ae-867d27ea1e6b].bod}}","label":"step➛Create Request Body➛bod","type":"step","ref":""},{"name":"{{step[3e5accb0-92c4-4383-90ae-867d27ea1e6b].body}}","label":"step➛Create Request Body➛body","type":"step","ref":""},{"name":"{{step[3e5accb0-92c4-4383-90ae-867d27ea1e6b].bodyO}}","label":"step➛Create Request Body➛bodyO","type":"step","ref":""},{"name":"{{step[3e5accb0-92c4-4383-90ae-867d27ea1e6b].bodyOb}}","label":"step➛Create Request Body➛bodyOb","type":"step","ref":""},{"name":"{{step[3e5accb0-92c4-4383-90ae-867d27ea1e6b].bodyObj}}","label":"step➛Create Request Body➛bodyObj","type":"step","ref":""},{"name":"{{step[3e5accb0-92c4-4383-90ae-867d27ea1e6b].bodyObje}}","label":"step➛Create Request Body➛bodyObje","type":"step","ref":""},{"name":"{{step[3e5accb0-92c4-4383-90ae-867d27ea1e6b].bodyObjec}}","label":"step➛Create Request Body➛bodyObjec","type":"step","ref":""},{"name":"{{step[3e5accb0-92c4-4383-90ae-867d27ea1e6b].bodyObject}}","label":"step➛Create Request Body➛bodyObject","type":"step","ref":""},{"name":"{{step[c57df66a-c45b-453d-8fa9-8e51d9cf011a].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Sentiment From GoogleAI</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-22 12:37:25</sys_created_on>
+        <sys_id>4d4ce257dbcf2300cd665421cf961904</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Sentiment From GoogleAI</sys_name>
+        <sys_package display_value="DeepAI Integration Spoke" source="x_287654_google_in">5b756d21dbba6300cd665421cf9619d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeepAI Integration Spoke">5b756d21dbba6300cd665421cf9619d9</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_4d4ce257dbcf2300cd665421cf961904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-22 13:01:34</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d4ce257dbcf2300cd665421cf961904"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4d4ce257dbcf2300cd665421cf961904"/>
+    <sys_element_mapping action="delete_multiple" query="id=4d4ce257dbcf2300cd665421cf961904"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sentimentresponse</field>
+        <id>4d4ce257dbcf2300cd665421cf961904</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-22 13:01:34</sys_created_on>
+        <sys_id>7ec1f25bdbcf2300cd665421cf9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-22 13:01:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4d4ce257dbcf2300cd665421cf961904</table>
+        <value>{{step[c57df66a-c45b-453d-8fa9-8e51d9cf011a].response_body}}</value>
+    </sys_element_mapping>
+</record_update>
